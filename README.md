@@ -5,6 +5,15 @@ This cloudformation stack is based on
 
 It's the same architecture but with Aurora-MySQL and Nginx.
 
+# Before run the cloudformation stack
+Plase download this files, upload to your bucket and chang all the templates URL in the 00-master.yaml file
+
+TemplateURL: https://moodle.s3.amazonaws.com/
+
+with your bucket URL.
+
+After that check the permissions in your bucket.
+
 # Error during installation
   
 During the installation, moodle will detect that it is not the same IP with which the installation was started, this is because it will detect the ALB's IP.  
@@ -19,3 +28,6 @@ To solve this, check the log files which is the ALB IP or check the network inte
 > select lastip from mdl_user;
 
 > update mdl_user set lastip='alb-ip' where username='admin';
+
+# Notes
+In this cloudformation stack don't have a Redis cache, but the application runs better with Redis instead of Memcached
