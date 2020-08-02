@@ -3,7 +3,7 @@
 This cloudformation stack is based on
 [https://github.com/aws-samples/aws-refarch-moodle](https://github.com/aws-samples/aws-refarch-moodle)
 
-It's the same architecture but with aurora-MySQL and Nginx.
+It's the same architecture but with Aurora-MySQL and Nginx.
 
 # Error during installation
   
