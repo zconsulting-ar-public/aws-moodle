@@ -8,7 +8,7 @@ It's the same architecture but with Aurora-MySQL and Nginx.
 # Before run the cloudformation stack
 Plase download this files, upload to your bucket and chang all the templates URL in the 00-master.yaml file
 
-TemplateURL: https://moodle.s3.amazonaws.com/
+> TemplateURL: https://moodle.s3.amazonaws.com/
 
 with your bucket URL.
 
