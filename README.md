@@ -1,6 +1,6 @@
 # Moodle in AWS
 
-This cloudformation stack is based on:
+This cloudformation stack is based on
 [https://github.com/aws-samples/aws-refarch-moodle](https://github.com/aws-samples/aws-refarch-moodle)
 it is the same architecture but with aurora-MySQL and Nginx.
 
