@@ -30,4 +30,4 @@ To solve this, check the log files which is the ALB IP or check the network inte
 > update mdl_user set lastip='alb-ip' where username='admin';
 
 # Notes
-In this cloudformation stack don't have a Redis cache, but the application runs better with Redis instead of Memcached
+This cloudformation stack don't have a Redis cache, but the application runs better with Redis instead of Memcached
